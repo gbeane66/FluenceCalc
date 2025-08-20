@@ -11,13 +11,11 @@ function App() {
   const [spotDiameter, setSpotDiameter] = useState("");
 
   async function energy() {
-    // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
     setEnergyMsg(await invoke("energy", { power, pulsePicker, repRate, spotDiameter })); //this is the part from the the rust main.rs
   }
 
   async function fluence() {
-    // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-    setFluenceMsg(await invoke("fluence", { power, pulsePicker, repRate, spotDiameter })); //this is the part from the the rust main.rs
+        setFluenceMsg(await invoke("fluence", { power, pulsePicker, repRate, spotDiameter })); //this is the part from the the rust main.rs
   }
 
   return (
