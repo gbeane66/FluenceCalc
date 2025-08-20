@@ -1,4 +1,4 @@
-# ⚡️ Fluence Calculator Desktop App 🚀
+# ⚡️ Fluence - A Fluence Calculator Desktop App 🚀
 
 A blazing-fast desktop app for calculating laser **fluence** and **pulse energy**!  
 Built with [Tauri](https://tauri.app/) 🦀, [React](https://react.dev/) ⚛️, and [TypeScript](https://www.typescriptlang.org/) 🟦.
